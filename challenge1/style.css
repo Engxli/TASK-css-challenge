@@ -1,0 +1,26 @@
+.main-content
+{
+    background-image: linear-gradient(to bottom right, #3f1e67, #1a0d2c);
+    display: block;
+    flex-wrap:wrap;
+    align-content: center;
+    justify-content: center;
+    word-wrap: break-word;
+    text-align:center;
+    padding: 10%;
+    color: white;
+
+
+}
+
+.main-content img
+{
+    width: 20%;
+    
+}
+
+.main-content h1
+{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+}

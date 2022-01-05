@@ -1,11 +1,26 @@
 /* Add your code in each class */
 .container {
+  height: 300px;
+  width: 400px;
+  overflow:hidden; 
+  overflow:scroll;
+
 }
 .head {
+  background-color: rgb(218, 142, 29);
+  text-align: center;
+  color: white;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  padding: 20px;  
+
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  background-color: rgb(253, 255, 125);
+  padding: 20px;  
 }
 
 /* This is a gift - Does not need editing */
@@ -14,3 +29,5 @@
   text-decoration: line-through;
   cursor: pointer;
 }
+
+
